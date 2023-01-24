@@ -277,12 +277,17 @@ h5{
 }
 
 .footer__iconos:hover{
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 .footer__link{
     text-decoration: none;
     color: white;
+    transition: 0.25s;
+}
+
+.footer__link:hover{
+    color: var(--color-rojo);
 }
 
 /*WEB*/
