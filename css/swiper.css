@@ -1,0 +1,96 @@
+:root{
+    --color-rojo: #e63946;
+    --color-azul: #457b9d;
+    --color-amarillo: #f0d02f;
+    --color-verde: #52b788;
+    --color-celeste: #219ebc;
+    --color-negro: #333533;
+    --color-crema: #e8eddf;
+}
+
+.swiper {
+    width: 540px;
+    height: 550px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.box{
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid var(--color-crema);
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+    background: linear-gradient(
+        to top,
+        var(--color-rojo) 0%,
+        var(--color-rojo) 50%,
+        var(--color-amarillo) 50%,
+        var(--color-amarillo) 100%
+    );
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 1rem;
+    position: relative;
+}
+
+.borde__superior{
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--color-rojo);
+    position: absolute;
+    top: 42%;
+    left: 0;
+    border-top-right-radius: 80%;
+}
+
+.borde__inferior{
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--color-crema);
+    position: absolute;
+    bottom: 42%;
+    right:0;
+    border-bottom-left-radius: 80%;
+}
+
+.portfolio__foto{
+    width: 15rem;
+    height: 10rem;
+    border: 3px solid white;
+    border-radius: 5%;
+    object-fit: cover;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+a{
+    z-index: 1;
+}
+
+.portfolio__foto:hover{
+    border-color: var(--color-rojo);
+}
+
+.portfolio__nombre{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.portfolio__descripcion{
+    text-align: center;
+    font-size: medium;
+    margin: 0.5rem 0;
+}

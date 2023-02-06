@@ -3,6 +3,9 @@
     --color-azul: #457b9d;
     --color-amarillo: #f0d02f;
     --color-verde: #52b788;
+    --color-celeste: #219ebc;
+    --color-negro: #333533;
+    --color-crema: #e8eddf;
 }
 
 html{
@@ -243,8 +246,8 @@ h3{
 }
 
 .iconos__utilidades{
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3rem;
+    height: 3rem;
     border: 3px solid white;
     background-color: white;
     border-radius: 20%;

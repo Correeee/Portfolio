@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/swiper.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./multimedia/iconos/favicon.ico" type="image/x-icon">
     <title>Portfolio | Maximiliano Correa</title>
@@ -83,7 +85,90 @@
     </section>
 
     <section class="habilidades__portfolio">
-        <h2 id="portfolio">PORTFOLIO</h2>
+        <h2 id="portfolio">PROYECTOS</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                            <div class="borde__inferior"></div>
+                            <div class="borde__superior"></div>
+                            <h2 class="portfolio__nombre">CONVERSOR</h2>
+                            <a href="https://correeee.github.io/Conversor/" target="_blank" rel="noopener noreferrer"><img src="./multimedia/conversor.png" alt="foto" class="portfolio__foto"></a>
+                            <p class="portfolio__descripcion">Conversor realizado con HTML, CSS, Toastify y JavaScript con la cotización del Dólar actualizada segundo a segundo, implementada a través de una API.</p>
+
+                            <div class="utilidades">
+                                <img src="./multimedia/iconos/html-5.png" alt="html" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/css-3.png" alt="css" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/js.png" alt="javascript" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/api.png" alt="API" class="iconos__utilidades">
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <div class="borde__inferior"></div>
+                            <div class="borde__superior"></div>
+                            <h2 class="portfolio__nombre">CRONÓMETRO</h2>
+                            <a href="https://correeee.github.io/Cronometro/" target="_blank" rel="noopener noreferrer"><img src="./multimedia/cronometro.png" alt="foto" class="portfolio__foto"></a>
+                            <p class="portfolio__descripcion">Cronómetro realizado con HTML, CSS, Toastify y JavaScript.</p>
+
+                            <div class="utilidades">
+                                <img src="./multimedia/iconos/html-5.png" alt="html" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/css-3.png" alt="css" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/js.png" alt="javascript" class="iconos__utilidades">
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <div class="borde__inferior"></div>
+                            <div class="borde__superior"></div>
+                            <h2 class="portfolio__nombre">SISTEMA DE TURNOS</h2>
+                            <a href="https://correeee.github.io/JS-CODERHOUSE/" target="_blank"><img src="./multimedia/sistema.png" alt="foto" class="portfolio__foto"></a>
+                            <p class="portfolio__descripcion">Sistema de Turnos realizado con HTML, CSS, Sweetalert2 y JavaScript. Pantalla de portfolios con Horario, y Clima actualizado por API.</p>
+
+                            <div class="utilidades">
+                                <img src="./multimedia/iconos/html-5.png" alt="html" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/css-3.png" alt="css" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/js.png" alt="javascript" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/api.png" alt="API" class="iconos__utilidades">
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <div class="borde__inferior"></div>
+                            <div class="borde__superior"></div>
+                            <h2 class="portfolio__nombre">CALCULADORA</h2>
+                            <a href="https://correeee.github.io/Calculadora/" target="_blank"><img src="./multimedia/calculadora.png" alt="foto" class="portfolio__foto"></a>
+                            <p class="portfolio__descripcion">Calculadora realizada con HTML, CSS y JavaScript.</p>
+
+                            <div class="utilidades">
+                                <img src="./multimedia/iconos/html-5.png" alt="html" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/css-3.png" alt="css" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/js.png" alt="javascript" class="iconos__utilidades">
+                            </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                            <div class="borde__inferior"></div>
+                            <div class="borde__superior"></div>
+                            <h2 class="portfolio__nombre">CAPTCHA</h2>
+                            <a href="https://correeee.github.io/Captcha/" target="_blank"><img src="./multimedia/captcha.png" alt="foto" class="portfolio__foto"></a>
+                            <p class="portfolio__descripcion">Captcha realizado con HTML, CSS, y JavaScript. El "código" es generado aleatoriamente por el script.</p>
+
+                            <div class="utilidades">
+                                <img src="./multimedia/iconos/html-5.png" alt="html" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/css-3.png" alt="css" class="iconos__utilidades">
+                                <img src="./multimedia/iconos/js.png" alt="javascript" class="iconos__utilidades">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <h2 id="portfolio">PORTFOLIO</h2>
         <div class="habilidades__conjunto portfolio__conjunto">
             <div class="habilidades__tecnicas portfolio__card" data-aos="zoom-in" data-aos-delay="500">
 
@@ -117,7 +202,7 @@
 
                 <h3>SISTEMA DE TURNOS</h3>
                 <a href="https://correeee.github.io/JS-CODERHOUSE/" target="_blank"><img src="./multimedia/sistema.png" alt="sistema de turnos-imagen" class="portfolio__img"></a>
-                <p class="portfolio__p">Sistema de Turnos realizado con HTML, CSS, Sweetalert2 y JavaScript. Pantalla de usuarios con Horario, y Clima actualizado por API.</p>
+                <p class="portfolio__p">Sistema de Turnos realizado con HTML, CSS, Sweetalert2 y JavaScript. Pantalla de portfolios con Horario, y Clima actualizado por API.</p>
                 <div class="utilidades">
                     <img src="./multimedia/iconos/html-5.png" alt="html" class="iconos__utilidades">
                     <img src="./multimedia/iconos/css-3.png" alt="css" class="iconos__utilidades">
@@ -156,8 +241,8 @@
                 </div>
             </div>
 
-        </div>
-    </section>
+        </div>-->
+    </section> 
 
     <footer>
         <h4>MAXIMILIANO CORREA</h4>
@@ -176,6 +261,8 @@
         <h5>© Maximiliano Correa. Todos los derechos reservados.</h5>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script/swiper.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
 </body>
